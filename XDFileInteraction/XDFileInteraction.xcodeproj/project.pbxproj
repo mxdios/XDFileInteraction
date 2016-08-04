@@ -13,6 +13,9 @@
 		C22FA2C91D5314BC00379672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FA2C71D5314BC00379672 /* Main.storyboard */; };
 		C22FA2CB1D5314BC00379672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22FA2CA1D5314BC00379672 /* Assets.xcassets */; };
 		C22FA2CE1D5314BC00379672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FA2CC1D5314BC00379672 /* LaunchScreen.storyboard */; };
+		C22FA2DD1D53228B00379672 /* Swift知识点.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C22FA2DC1D53228B00379672 /* Swift知识点.pdf */; };
+		C22FA2E01D53290B00379672 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22FA2DF1D53290B00379672 /* QLViewController.m */; };
+		C22FA2E31D5329C000379672 /* InteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22FA2E21D5329C000379672 /* InteractionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		C22FA2CA1D5314BC00379672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C22FA2CD1D5314BC00379672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C22FA2CF1D5314BC00379672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22FA2DC1D53228B00379672 /* Swift知识点.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Swift知识点.pdf"; sourceTree = "<group>"; };
+		C22FA2DE1D53290B00379672 /* QLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLViewController.h; sourceTree = "<group>"; };
+		C22FA2DF1D53290B00379672 /* QLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLViewController.m; sourceTree = "<group>"; };
+		C22FA2E11D5329C000379672 /* InteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionViewController.h; sourceTree = "<group>"; };
+		C22FA2E21D5329C000379672 /* InteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 		C22FA2B21D5314BB00379672 = {
 			isa = PBXGroup;
 			children = (
+				C22FA2DC1D53228B00379672 /* Swift知识点.pdf */,
 				C22FA2BD1D5314BB00379672 /* XDFileInteraction */,
 				C22FA2BC1D5314BB00379672 /* Products */,
 			);
@@ -62,6 +71,10 @@
 				C22FA2C21D5314BC00379672 /* AppDelegate.m */,
 				C22FA2C41D5314BC00379672 /* ViewController.h */,
 				C22FA2C51D5314BC00379672 /* ViewController.m */,
+				C22FA2DE1D53290B00379672 /* QLViewController.h */,
+				C22FA2DF1D53290B00379672 /* QLViewController.m */,
+				C22FA2E11D5329C000379672 /* InteractionViewController.h */,
+				C22FA2E21D5329C000379672 /* InteractionViewController.m */,
 				C22FA2C71D5314BC00379672 /* Main.storyboard */,
 				C22FA2CA1D5314BC00379672 /* Assets.xcassets */,
 				C22FA2CC1D5314BC00379672 /* LaunchScreen.storyboard */,
@@ -136,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22FA2DD1D53228B00379672 /* Swift知识点.pdf in Resources */,
 				C22FA2CE1D5314BC00379672 /* LaunchScreen.storyboard in Resources */,
 				C22FA2CB1D5314BC00379672 /* Assets.xcassets in Resources */,
 				C22FA2C91D5314BC00379672 /* Main.storyboard in Resources */,
@@ -150,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22FA2C61D5314BC00379672 /* ViewController.m in Sources */,
+				C22FA2E01D53290B00379672 /* QLViewController.m in Sources */,
 				C22FA2C31D5314BC00379672 /* AppDelegate.m in Sources */,
+				C22FA2E31D5329C000379672 /* InteractionViewController.m in Sources */,
 				C22FA2C01D5314BB00379672 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
